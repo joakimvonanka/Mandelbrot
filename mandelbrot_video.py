@@ -40,12 +40,12 @@ def create_mandelbrot_frame(width, height, x_centre, y_centre, zoom, max_iter, f
     image.save(filename)
 
 # Parameters for the Mandelbrot frames
-width = 1920
-height = 1080
+width = 720
+height = 480
 x_centre = -0.743643887037151 # Centre x-axis value (real part of the complex plane)
 y_centre = 0.131825904205330  # Centre y-axis value (imaginary part of the complex plane)
-max_iter = 1000
-num_frames = 60
+max_iter = 4000
+num_frames = 500
 zoom_factor = 1.1
 
 output_folder = "mandelbrot_frames"
